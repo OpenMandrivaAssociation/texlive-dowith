@@ -6,7 +6,7 @@
 # catalog-version 0.22
 Name:		texlive-dowith
 Version:	0.22
-Release:	2
+Release:	1
 Summary:	Apply a command to a list of items
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/dowith
@@ -56,3 +56,15 @@ discussed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.22-1
++ Revision: 812221
+- Update to latest release.
+
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
++ Revision: 804569
+- Import texlive-dowith
+- Import texlive-dowith
+
