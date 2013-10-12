@@ -1,11 +1,11 @@
-# revision 27125
+# revision 29501
 # category Package
 # catalog-ctan /macros/generic/dowith
-# catalog-date 2012-06-05 20:15:31 +0200
+# catalog-date 2013-03-24 11:10:16 +0100
 # catalog-license lppl1.3
-# catalog-version 0.22
+# catalog-version 0.31a
 Name:		texlive-dowith
-Version:	0.22
+Version:	0.31a
 Release:	1
 Summary:	Apply a command to a list of items
 Group:		Publishing
@@ -26,7 +26,8 @@ elements of a list without separators, such as
 reducing macros storing such lists. Applications in mind
 belonged to LaTeX, but the package should work with other
 formats as well. Loop and list macros in other packages are
-discussed.
+discussed. A further package, domore, is also provided, which
+enhances the functionality of dowith.
 
 %post
     %{_sbindir}/texlive.post
@@ -38,13 +39,18 @@ discussed.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/generic/dowith/domore.sty
 %{_texmfdistdir}/tex/generic/dowith/dowith.RLS
 %{_texmfdistdir}/tex/generic/dowith/dowith.sty
+%doc %{_texmfdistdir}/doc/generic/dowith/Announce.txt
 %doc %{_texmfdistdir}/doc/generic/dowith/README
+%doc %{_texmfdistdir}/doc/generic/dowith/SrcFILEs.txt
+%doc %{_texmfdistdir}/doc/generic/dowith/domore.pdf
 %doc %{_texmfdistdir}/doc/generic/dowith/dowith.pdf
 #- source
-%doc %{_texmfdistdir}/source/generic/dowith/SrcFILEs.txt
+%doc %{_texmfdistdir}/source/generic/dowith/domore.tex
 %doc %{_texmfdistdir}/source/generic/dowith/dowith.tex
+%doc %{_texmfdistdir}/source/generic/dowith/fdatechk.tex
 %doc %{_texmfdistdir}/source/generic/dowith/srcfiles.tex
 
 #-----------------------------------------------------------------------
@@ -56,15 +62,3 @@ discussed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.22-1
-+ Revision: 812221
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 804569
-- Import texlive-dowith
-- Import texlive-dowith
-
