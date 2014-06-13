@@ -6,7 +6,7 @@
 # catalog-version 0.31a
 Name:		texlive-dowith
 Version:	0.31a
-Release:	5
+Release:	6
 Summary:	Apply a command to a list of items
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/dowith
