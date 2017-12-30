@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 0.31a
 Name:		texlive-dowith
-Version:	0.31a
-Release:	9
+Version:	r0.32
+Release:	1
 Summary:	Apply a command to a list of items
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/dowith
