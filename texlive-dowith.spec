@@ -1,6 +1,6 @@
 Name:		texlive-dowith
 Version:	38860
-Release:	1
+Release:	2
 Summary:	Apply a command to a list of items
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/dowith
