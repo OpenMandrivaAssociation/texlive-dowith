@@ -3,7 +3,7 @@ Version:	38860
 Release:	2
 Summary:	Apply a command to a list of items
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/generic/dowith
+URL:		https://www.ctan.org/tex-archive/macros/generic/dowith
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dowith.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dowith.doc.r%{version}.tar.xz
